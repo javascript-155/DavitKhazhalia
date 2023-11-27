@@ -19,6 +19,7 @@ function loadFile () {
 })
 }
 
+
 function saveFile () {
     const textToSave = document.getElementById('textInput').value;
     const blob = new Blob([textToSave], {type: 'text/plain'});
